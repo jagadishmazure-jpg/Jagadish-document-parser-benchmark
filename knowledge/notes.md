@@ -1,7 +1,6 @@
 # Document parser benchmark — distilled notes
 
-These notes are written in the author's own words. They summarise the
-design of this project, not any external source.
+These notes summarise the design of this project.
 
 ## The problem
 
