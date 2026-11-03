@@ -11,7 +11,7 @@ Lifecycle covered end to end:
 
 from . import metrics
 from .audit import AuditLog
-from .gates import ALLOW, BLOCK, NEEDS_APPROVAL, DownstreamAgent, QualityGateAgent
+from .gates import BLOCK, NEEDS_APPROVAL, DownstreamAgent, QualityGateAgent
 from .models import ExtractedField, ParseResult
 from .parsers import ALL_PARSERS
 from .redaction import redact

@@ -6,9 +6,8 @@ from document_parser_benchmark.agents import BenchmarkReporterAgent, ParserRunne
 from document_parser_benchmark.approvals import Approval
 from document_parser_benchmark.budget import Budget
 from document_parser_benchmark.dataset import build_dataset
-from document_parser_benchmark.gates import DownstreamAgent, GateError
+from document_parser_benchmark.gates import DownstreamAgent
 from document_parser_benchmark.models import ExtractedField, ParseResult
-from document_parser_benchmark.parsers import LayoutAwareParser
 
 
 def test_runner_runs_every_parser_on_every_doc():

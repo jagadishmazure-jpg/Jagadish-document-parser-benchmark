@@ -11,7 +11,7 @@ from document_parser_benchmark.dataset import build_dataset
 if __name__ == "__main__":
     report = Pipeline().run(build_dataset())
     print("Head-to-head parser benchmark (simulated parsers, synthetic documents)")
-    print(f"Documents: 6, parsers: 3, parses scored: 18")
+    print("Documents: 6, parsers: 3, parses scored: 18")
     for name, s in sorted(report["per_parser"].items()):
         print(
             f"  {name:13s} precision={s['precision']:.4f} "
